@@ -1,15 +1,5 @@
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
     .quadros {
-        background-color: red;
-        display: block;
-        padding: 50px;
-    }
-
-    .figura {
-        padding: 40px;
-    }
-
-    .informacoes {
-        position: relative;
+        flex-wrap: wrap;
     }
 }
