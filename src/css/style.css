@@ -1,26 +1,5 @@
-.conteiner {
-    background-color: #fff;
+.cabeçalho {
+    background-color: rgb(100, 100, 104);
     display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-}
-
-#foto {
-    width: 200px;
-    border-radius: 50%;
-    height: 100%;
-    align-content: center;
-}
-
-p {
-    background-color: #fff;
-    font-size: 20px;
-}
-
-#age {
-    color: hsl(227, 10%, 46%);
+    justify-content: space-between;
 }
