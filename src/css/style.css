@@ -1,5 +1,30 @@
-.cabeçalho {
-    background-color: rgb(100, 100, 104);
+body {
+    overflow-x: hidden; 
+    overflow: hidden;
+}
+
+.quadros {
+    background-color: #fff;
+    padding: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.figura {
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 30px 20px 30px black;
+    border: solid 10px black;
+}
+
+.figura img {
+    width: 250px;
+}
+
+.informacoes {
+    position: absolute;
+    color: #ffffff;
+    top: 380px;
+    margin-left: 20px;
+    font-size: 20px;
 }

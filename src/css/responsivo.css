@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+    .quadros {
+        background-color: red;
+        display: block;
+        padding: 50px;
+    }
+
+    .figura {
+        padding: 40px;
+    }
+
+    .informacoes {
+        position: relative;
+    }
+}
